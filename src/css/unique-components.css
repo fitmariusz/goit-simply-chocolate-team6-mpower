@@ -4,6 +4,7 @@
   --orange: #fd9222;
   --white: #fff;
 }
+
 .list {
   text-decoration: none;
   list-style-type: none;
@@ -14,7 +15,10 @@
 }
 
 @media screen and (min-width: 0px) {
-  .section {
+  .unique-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
   }
   .unique-container{
@@ -50,23 +54,27 @@
 .unique-list{
     display: flex;
     flex-wrap: wrap;
-    row-gap: 24px;
+    justify-content: center;
+    row-gap: 20px;
 }
 .unique-list-component:nth-child(1){
-    background: url(../images/unique-components/mobile-chocolate-bar.png) no-repeat, var(--orange);
+    background: url(../images/unique-components/mobile-unique-chocolate-bar.png) no-repeat, var(--orange);
     background-position: 50% 28px;
 }
 .unique-list-component:nth-child(2) {
-    background: url(../images/unique-components/mobile-chocolate-bar.png) no-repeat, var(--orange);
+    background: url(../images/unique-components/mobile-unique-milk.png) no-repeat, var(--white);
     background-position: 50% 28px;
+    border: 1px solid var(--orange);
+
 }
 .unique-list-component:nth-child(3) {
-    background: url(../images/unique-components/mobile-chocolate-bar.png) no-repeat, var(--orange);
+    background: url(../images/unique-components/mobile-unique-nut.png) no-repeat, var(--grey);
     background-position: 50% 28px;
 }
 .unique-list-component:nth-child(4) {
-    background: url(../images/unique-components/mobile-chocolate-bar.png) no-repeat, var(--orange);
+    background: url(../images/unique-components/mobile-unique-chocolate-beans.png) no-repeat, var(--white);
     background-position: 50% 28px;
+    border: 1px solid var(--orange);
 }
   .unique-list-component {
     min-width: 335px;
@@ -91,4 +99,19 @@
     color: var(--dark);
   }
 
+}
+@media screen and (min-width:768px) and (max-width:1199px){
+    .unique-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            max-width: 704px;
+        }
+                .unique-list {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 32px;
+                }
 }
