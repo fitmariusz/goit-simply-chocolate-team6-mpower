@@ -19,16 +19,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-   
   }
-  .unique-container{
+  .unique-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     max-width: 335px;
   }
-  .unique-h2{
+  .unique-h2 {
     color: var(--dark);
     text-align: center;
     font-size: 20px;
@@ -39,10 +38,10 @@
     text-transform: uppercase;
     max-width: 283px;
   }
-  .unique-h2-color{
+  .unique-h2-color {
     color: var(--orange);
   }
-  .unique-paragraph{
+  .unique-paragraph {
     color: var(--dark);
     text-align: center;
     font-size: 14px;
@@ -51,31 +50,32 @@
     letter-spacing: -0.28px;
     margin: 24px 0 32px 0;
   }
-.unique-list{
+  .unique-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 20px;
-}
-.unique-list-component:nth-child(1){
-    background: url(../images/unique-components/mobile-unique-chocolate-bar.png) no-repeat, var(--orange);
+  }
+  .unique-list-component:nth-child(1) {
+    background: url(../images/unique-components/mobile-unique-chocolate-bar.png) no-repeat,
+      var(--orange);
     background-position: 50% 28px;
-}
-.unique-list-component:nth-child(2) {
+  }
+  .unique-list-component:nth-child(2) {
     background: url(../images/unique-components/mobile-unique-milk.png) no-repeat, var(--white);
     background-position: 50% 28px;
     border: 1px solid var(--orange);
-
-}
-.unique-list-component:nth-child(3) {
+  }
+  .unique-list-component:nth-child(3) {
     background: url(../images/unique-components/mobile-unique-nut.png) no-repeat, var(--grey);
     background-position: 50% 28px;
-}
-.unique-list-component:nth-child(4) {
-    background: url(../images/unique-components/mobile-unique-chocolate-beans.png) no-repeat, var(--white);
+  }
+  .unique-list-component:nth-child(4) {
+    background: url(../images/unique-components/mobile-unique-chocolate-beans.png) no-repeat,
+      var(--white);
     background-position: 50% 28px;
     border: 1px solid var(--orange);
-}
+  }
   .unique-list-component {
     min-width: 335px;
     height: 270px;
@@ -94,24 +94,79 @@
     font-weight: 600;
     line-height: 1.285;
   }
-  
-.unique-dark-color{
+
+  .unique-dark-color {
     color: var(--dark);
   }
-
 }
-@media screen and (min-width:768px) and (max-width:1199px){
-    .unique-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            max-width: 704px;
-        }
-                .unique-list {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    gap: 32px;
-                }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .unique-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 704px;
+  }
+  .unique-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+  }
+  .unique-h2 {
+    min-width: 411px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+  }
+  .unique-paragraph {
+    margin: 28px 0 52px 0;
+    width: 486px;
+    height: 72px;
+  }
+  .unique-list-component:nth-child(1) {
+    order: 1;
+  }
+
+  .unique-list-component:nth-child(2) {
+    order: 3;
+  }
+
+  .unique-list-component:nth-child(3) {
+    order: 4;
+  }
+
+  .unique-list-component:nth-child(4) {
+    order: 2;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .unique-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1138px;
+  }
+  .unique-h2 {
+    min-width: 411px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+  }
+  .unique-paragraph {
+    margin: 28px 0 52px 0;
+    width: 486px;
+    height: 72px;
+  }
+  .unique-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 19px;
+  }
+  .unique-list-component {
+    min-width: 270px;
+    height: 270px;
+  }
 }
