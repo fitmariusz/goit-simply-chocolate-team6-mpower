@@ -1,4 +1,4 @@
-.buy-modal-backdrop {
+.reviews-modal-backdrop {
     position: fixed;
 
     left: 0;
@@ -9,7 +9,7 @@
     transition: opacity var(--var-time-tr) var(--var-translate), visibility var(--var-time-tr) var(--var-translate);
 }
 
-.buy-modal {
+.reviews-modal {
     position: absolute;
     padding: 72px 24px 24px 24px;
     align-items: center;
