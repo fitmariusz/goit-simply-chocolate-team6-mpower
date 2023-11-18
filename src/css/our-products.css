@@ -62,7 +62,6 @@
   }
 
   .product-price {
-    width: 94px;
     padding: 8px 20px;
     border-radius: 100px;
     border: 1px solid rgba(17, 17, 17, 0.1);
@@ -128,6 +127,10 @@
   }
   .pr-tile-four {
     display: flex;
+  }
+
+  .products-slide-icons {
+    margin: 32px 0 0 0;
   }
 }
 
