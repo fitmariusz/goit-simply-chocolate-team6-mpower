@@ -1,4 +1,4 @@
-.buy-modal-backdrop {
+.subscrible--modal-backdrop {
     position: fixed;
 
     left: 0;
@@ -9,7 +9,7 @@
     transition: opacity var(--var-time-tr) var(--var-translate), visibility var(--var-time-tr) var(--var-translate);
 }
 
-.buy-modal {
+.subscribe-modal {
     position: absolute;
     padding: 72px 24px 24px 24px;
     align-items: center;

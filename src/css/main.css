@@ -7,3 +7,8 @@
 @import url("top-sellers.css");
 @import url("reviews.css");
 @import url("footer.css");
+
+/* modal */
+@import url("modal-reviews.css");
+@import url("modal-buy-now.css");
+@import url("modal-subscrible.css");
