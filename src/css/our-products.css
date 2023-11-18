@@ -1,6 +1,9 @@
 @media screen and (min-width: 375px) {
-  .products-section {
-    display: flex;
-    flex-direction: column;
+  .products-heading {
+    margin-bottom: 32px;
+  }
+
+  .products-part-heading {
+    color: orange;
   }
 }
