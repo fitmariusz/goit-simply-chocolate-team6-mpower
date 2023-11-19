@@ -1,18 +1,110 @@
 :root {
-  --dark: #111;
-  --grey: #1e1823;
-  --orange: #fd9222;
-  --white: #fff;
+    /* -------- COLORS -------- */
+    --white-color: rgba(255, 255, 255);
+    --snow-color: #fafafa;
+    --linen-color: #fcf1e0;
+    --carrot-orange-color: #fd9222;
+    --eerie-black-color: #1e1823;
+    --smoky-black-color: #111;
+    --smoky-transparent-black-color: rgba(17, 17, 17, 0.1);
+
+    /* -------- FONTS --------  */
+    --font-montserrat: "Montserrat", sans-serif;
+
+    /* -------- FONT SIZE --------  */
+    --description-font-size: 14px;
+    /* all */
+    --title-font-size: 24px;
+    /* desktop & tablet */
+    --mobile-title-font-size: 20px;
+    /* mobile */
+    --sub-title-font-size: 18px;
+    /* all */
+    --pop-up-font-size: 10px;
+    /* all */
+
+    /* -------- FONT WEIGHT -------- */
+    --logo-weight: 700;
+    --bold-weight: 600;
+    --medium-weight: 500;
+    --light-weight: 400;
+
+    /* -------- BREAKPOINTS -------- */
+    --mobile-breakpoint: 375px;
+    --tablet-breakpoint: 768px;
+    --desktop-breakpoint: 1200px;
+
+    /* -------- ANIMATIONS -------- */
+    --animation-duration: 300ms;
 }
 
-.list {
-  text-decoration: none;
-  list-style-type: none;
-}
+/* -------- RESET -------- */
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--font-montserrat);
 }
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul {
+    list-style: none;
+}
+
+/* -------- STYLES -------- */
+html {
+    background: #fafafa;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+}
+/* ##### KONIEC ZMIENNYCH Z SETUP ######## */
 
 @media screen and (min-width: 0px) {
   .unique-section {
@@ -28,7 +120,7 @@
     max-width: 335px;
   }
   .unique-h2 {
-    color: var(--dark);
+    color: var(--smoky-black-color);
     text-align: center;
     font-size: 20px;
     font-style: normal;
@@ -39,10 +131,10 @@
     max-width: 283px;
   }
   .unique-h2-color {
-    color: var(--orange);
+    color: var(--carrot-orange-color);
   }
   .unique-paragraph {
-    color: var(--dark);
+    color: var(--smoky-black-color);
     text-align: center;
     font-size: 14px;
     font-style: normal;
@@ -58,23 +150,23 @@
   }
   .unique-list-component:nth-child(1) {
     background: url(../images/unique-components/mobile-unique-chocolate-bar.png) no-repeat,
-      var(--orange);
+      var(--carrot-orange-color);
     background-position: 50% 28px;
   }
   .unique-list-component:nth-child(2) {
-    background: url(../images/unique-components/mobile-unique-milk.png) no-repeat, var(--white);
+    background: url(../images/unique-components/mobile-unique-milk.png) no-repeat, var(--white-color);
     background-position: 50% 28px;
-    border: 1px solid var(--orange);
+    border: 1px solid var(--carrot-orange-color);
   }
   .unique-list-component:nth-child(3) {
-    background: url(../images/unique-components/mobile-unique-nut.png) no-repeat, var(--grey);
+    background: url(../images/unique-components/mobile-unique-nut.png) no-repeat, var(--eerie-black-color);
     background-position: 50% 28px;
   }
   .unique-list-component:nth-child(4) {
     background: url(../images/unique-components/mobile-unique-chocolate-beans.png) no-repeat,
-      var(--white);
+      var(--white-color);
     background-position: 50% 28px;
-    border: 1px solid var(--orange);
+    border: 1px solid var(--carrot-orange-color);
   }
   .unique-list-component {
     min-width: 335px;
@@ -86,7 +178,7 @@
     border: none;
   }
   .unique-list-component-paragraph {
-    color: var(--white);
+    color: var(--white-color);
     text-transform: uppercase;
     margin: 0 0 28px 28px;
     font-size: 14px;
@@ -96,7 +188,7 @@
   }
 
   .unique-dark-color {
-    color: var(--dark);
+    color: var(--smoky-black-color);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
