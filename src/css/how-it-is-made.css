@@ -1,1 +1,170 @@
-.section {}
+/* -----------------------MOBILE VERSION------------------------------- */
+@media (max-width: 375px) {
+  .section-howitsmade {
+    position: fixed;
+    display: flex;
+    width: 335px;
+    height: 1032px;
+    top: 3032px;
+    left: 20px;
+    gap: 32px;
+  }
+  .heading-howitis {
+    width: 171px;
+    height: 24px;
+    font-weight: var(--bold-weight);
+    font-size: var(--title-font-size);
+    color: var(--smoky-black-color);
+    line-height: 28px;
+    letter-spacing: -3%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .span-made {
+    color: var(--carrot-orange-color);
+  }
+  .container-howitsmade {
+    position: fixed;
+    display: flex;
+    width: 335px;
+    height: 976px;
+    gap: 20px;
+  }
+
+  .img-howitsmade {
+    width: 335px;
+    height: 500px;
+    border-radius: 15px;
+  }
+  .div-receipt {
+    width: 335px;
+    height: px;
+    border-radius: 15px;
+    background-color: var(--white-color);
+  }
+  .heading-receipt {
+    width: 307px;
+    height: 72px;
+    font-size: var(--sub-title-font-size);
+    line-height: 24px;
+  }
+  .list-receipt {
+    width: 307px;
+    height: 324px;
+    gap: 18px;
+  }
+
+  .list-first-step {
+    width: 291px;
+    height: 54px;
+    left: 16px;
+  }
+  .list-second-step {
+    width: 291px;
+    height: 36px;
+    left: 16px;
+  }
+  .list-third-step {
+    width: 291px;
+    height: 72px;
+    left: 16px;
+  }
+  .list-fourth-step {
+    width: 291px;
+    height: 36px;
+    left: 16px;
+  }
+  .list-fifth-step {
+    width: 291px;
+    height: 54px;
+    left: 16px;
+  }
+}
+
+/* -----------------------TABLET VERSION------------------------------- */
+
+@media (min-width: 768px) {
+}
+
+/* -------------------------DESKTOP VERSION---------------------------- */
+@media (min-width: 1200px) {
+  .section-howitsmade {
+    position: fixed;
+    display: flex;
+    width: 1136px;
+    height: 478px;
+    top: 1828px;
+    left: 32px;
+    gap: 50px;
+  }
+  .heading-howitis {
+    width: 205px;
+    height: 28px;
+    font-weight: var(--bold-weight);
+    font-size: var(--title-font-size);
+    color: var(--smoky-black-color);
+    line-height: 28px;
+    letter-spacing: -3%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .container-howitsmade {
+    position: fixed;
+    display: flex;
+    width: 1136px;
+    height: 400px;
+    gap: 20px;
+  }
+  .span-made {
+    color: var(--carrot-orange-color);
+  }
+  ceipt {
+    width: 516px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: var(--white-color);
+  }
+  .heading-receipt {
+    width: 350px;
+    height: 48px;
+    font-size: var(--sub-title-font-size);
+    line-height: 24px;
+  }
+  .list-receipt {
+    width: 452px;
+    height: 260px;
+    gap: 24px;
+  }
+
+  .list-first-step {
+    width: 436px;
+    height: 36px;
+    left: 16px;
+  }
+  .list-second-step {
+    width: 409px;
+    height: 18px;
+    left: 16px;
+  }
+  .list-third-step {
+    width: 409px;
+    height: 54px;
+    left: 16px;
+  }
+  .list-fourth-step {
+    width: 347px;
+    height: 18px;
+  }
+  .list-fifth-step {
+    width: 347px;
+    height: 18px;
+  }
+
+  .list-style {
+    font-family: var(--font-montserrat);
+    font-weight: var(--light-weight);
+    font-size: var(--description-font-size);
+    line-height: 18px;
+    letter-spacing: -2%;
+  }
+}
