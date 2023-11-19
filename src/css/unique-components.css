@@ -104,27 +104,25 @@ html {
     pointer-events: none;
 
 }
-/* ##### KONIEC ZMIENNYCH Z SETUP ######## */
+/* KONIEC SETUP */
 
-@media screen and (min-width: 0px) {
   .unique-section {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .unique-container {
+.unique-section> .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 335px;
   }
   .unique-h2 {
     color: var(--smoky-black-color);
     text-align: center;
-    font-size: 20px;
+    font-size: var(--mobile-title-font-size);
     font-style: normal;
-    font-weight: 600;
+    font-weight: var(--bold-weight);
     line-height: 1.2;
     letter-spacing: -0.6px;
     text-transform: uppercase;
@@ -136,11 +134,13 @@ html {
   .unique-paragraph {
     color: var(--smoky-black-color);
     text-align: center;
-    font-size: 14px;
+    font-size: var(--description-font-size);
     font-style: normal;
+    font-weight: var(--light-weight);
     line-height: 1.285;
     letter-spacing: -0.28px;
     margin: 24px 0 32px 0;
+    width: 335px;
   }
   .unique-list {
     display: flex;
@@ -181,24 +181,16 @@ html {
     color: var(--white-color);
     text-transform: uppercase;
     margin: 0 0 28px 28px;
-    font-size: 14px;
+    font-size: var(--description-font-size);
     font-style: normal;
-    font-weight: 600;
+    font-weight: var(--bold-weight);
     line-height: 1.285;
   }
 
   .unique-dark-color {
     color: var(--smoky-black-color);
   }
-}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .unique-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    max-width: 704px;
-  }
   .unique-list {
     display: flex;
     flex-wrap: wrap;
@@ -207,7 +199,7 @@ html {
   }
   .unique-h2 {
     min-width: 411px;
-    font-size: 24px;
+    font-size: var(--title-font-size);
     line-height: 28px;
     letter-spacing: -0.72px;
   }
@@ -233,16 +225,9 @@ html {
   }
 }
 @media screen and (min-width: 1200px) {
-  .unique-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    max-width: 1138px;
-  }
   .unique-h2 {
     min-width: 411px;
-    font-size: 24px;
+    font-size: var(--title-font-size);
     line-height: 28px;
     letter-spacing: -0.72px;
   }
