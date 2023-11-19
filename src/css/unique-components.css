@@ -190,7 +190,7 @@ html {
   .unique-dark-color {
     color: var(--smoky-black-color);
   }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px){
   .unique-list {
     display: flex;
     flex-wrap: wrap;
@@ -246,4 +246,31 @@ html {
     min-width: 270px;
     height: 270px;
   }
+  .unique-list-component:nth-child(1) {
+      background: url(../images/unique-components/desktop-unique-chocolate-bar.png) no-repeat,
+          var(--carrot-orange-color);
+      background-position: 50% 28px;
+      order:1;
+  }
+
+  .unique-list-component:nth-child(2) {
+      background: url(../images/unique-components/desktop-unique-milk.png) no-repeat, var(--white-color);
+      background-position: 50% 28px;
+      border: 1px solid var(--carrot-orange-color);
+  order: 2;
+    }
+
+  .unique-list-component:nth-child(3) {
+      background: url(../images/unique-components/desktop-unique-nut.png) no-repeat, var(--eerie-black-color);
+      background-position: 50% 28px;
+  order:3;
+    }
+
+  .unique-list-component:nth-child(4) {
+      background: url(../images/unique-components/desktop-unique-chocolate-beans.png) no-repeat,
+          var(--white-color);
+      background-position: 50% 28px;
+      border: 1px solid var(--carrot-orange-color);
+  order: 4;
+    }
 }
