@@ -1,9 +1,9 @@
  .section-subcribe{
-
-     margin: auto;
+     display: flex;
+     /* margin: auto; */
      background-color: var(--color-dark);
      padding: 112px 0;
-     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/subscribe/subcribe-bg-mobile@1x.jpg');
+     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('../images/subscribe/subcribe-bg-mobile@1x.jpg'), lightgray -412px -477.287px / 320% 372.105% no-repeat;
      width: 100%;
      height: 429px;
      background-repeat: no-repeat;
