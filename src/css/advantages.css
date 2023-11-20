@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -87,6 +88,39 @@
 
 /* ============TABLET============ */
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --color-white: #ffffff;
+    --color-light-white: #ffffffb2;
+    --color-black: #111111;
+    --color-dark-purple: #1e1823;
+    --color-orange: #fd9222;
+    --color-light-orange: #fcf1e0;
+  } */
+  
+  /* ============MOBILE============ */
+/*   @media (max-width: 375px) {
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  } */
+  
+
   .advantages-section {
     padding: 50px 32px;
     display: flex;
