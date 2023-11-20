@@ -22,7 +22,72 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
      }
 
  }
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24
 
+}
 .subscribe-h-font{
-    color: aqua;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    width: 291px;
+
+}
+.subscribe-p-font{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.286;
+    letter-spacing: -0.28px;
+    width: 326px;;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+.section-subcribe {
+        display: flex;
+ 
+        background-image: linear-gradient(0deg, #0003 0%, #0003 100%), url("../images/subscribe/subcribe-bg-tablet@1x.jpg");
+        width: 100%;
+    }
+
+ @media (min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+     .section-subscribe {
+         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/subscribe/subcribe-bg-tablet@2x.jpg');
+     }
+    }
+}
+@media screen and (min-width: 1201px) {
+.section-subcribe {
+        display: flex;
+        /* margin: auto; */
+        background-color: var(--color-dark);
+        padding: 112px 0;
+        background-image: linear-gradient(0deg, #0003 0%, #0003 100%), url("../images/subscribe/subcribe-bg-desktop@1x.jpg");
+        width: 100%;
+        height: 429px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+         @media (min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi),
+         (min-resolution: 2dppx) {
+             .section-subscribe {
+                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/subscribe/subcribe-bg-mobile@2x.jpg');
+             }
+            }  
 }
