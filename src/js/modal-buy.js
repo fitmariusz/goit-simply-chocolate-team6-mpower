@@ -3,7 +3,7 @@
     openModalBtn: document.querySelector('[data-modal-open]'),
     closeModalBtn: document.querySelector('[data-modal-close]'),
     modal: document.querySelector('[data-modal]'),
-    buyNowBtn: document.querySelector('.button-buy-now'),
+    // buyNowBtn: document.querySelector('.button-buy-now'),
   };
 
   refs.openModalBtn.addEventListener('click', toggleModal);
