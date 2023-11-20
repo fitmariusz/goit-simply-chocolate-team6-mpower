@@ -1,1 +1,232 @@
-.section {}
+.unique-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unique-section > .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.unique-h2 {
+  color: var(--smoky-black-color);
+  text-align: center;
+  font-size: var(--mobile-title-font-size);
+  font-style: normal;
+  font-weight: var(--bold-weight);
+  line-height: 1.2;
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
+  max-width: 283px;
+}
+
+.unique-h2-color {
+  color: var(--carrot-orange-color);
+}
+
+.unique-paragraph {
+  color: var(--smoky-black-color);
+  text-align: center;
+  font-size: var(--description-font-size);
+  font-style: normal;
+  font-weight: var(--light-weight);
+  line-height: 1.285;
+  letter-spacing: -0.28px;
+  margin: 24px 0 32px 0;
+  width: 335px;
+}
+
+.unique-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+.unique-list-component:nth-child(1) {
+  background: url(../images/unique-components/mobile-unique-chocolate-bar.png) no-repeat,
+    var(--carrot-orange-color);
+  background-position: 50% 28px;
+  background-size: 206px 160px;
+}
+
+.unique-list-component:nth-child(2) {
+  background: url(../images/unique-components/mobile-unique-milk.png) no-repeat, var(--white-color);
+  background-position: 50% 28px;
+  border: 1px solid var(--carrot-orange-color);
+  background-size: 206px 160px;
+}
+
+.unique-list-component:nth-child(3) {
+  background: url(../images/unique-components/mobile-unique-nut.png) no-repeat,
+    var(--eerie-black-color);
+  background-position: 50% 28px;
+  background-size: 206px 160px;
+}
+
+.unique-list-component:nth-child(4) {
+  background: url(../images/unique-components/mobile-unique-chocolate-beans.png) no-repeat,
+    var(--white-color);
+  background-position: 50% 28px;
+  border: 1px solid var(--carrot-orange-color);
+  background-size: 206px 160px;
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .unique-list-component:nth-child(1) {
+    background-image: url(../images/unique-components/mobile-unique-chocolate-bar@2x.png);
+  }
+
+  .unique-list-component:nth-child(2) {
+    background-image: url(../images/unique-components/mobile-unique-milk@2x.png);
+  }
+
+  .unique-list-component:nth-child(3) {
+    background-image: url(../images/unique-components/mobile-unique-nut@2x.png);
+  }
+
+  .unique-list-component:nth-child(4) {
+    background-image: url(../images/unique-components/mobile-unique-chocolate-beans@2x.png);
+  }
+}
+
+.unique-list-component {
+  min-width: 335px;
+  height: 270px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  border: none;
+  background-size: 206px 160px;
+}
+
+.unique-list-component-paragraph {
+  color: var(--white-color);
+  text-transform: uppercase;
+  margin: 0 0 28px 28px;
+  font-size: var(--description-font-size);
+  font-style: normal;
+  font-weight: var(--bold-weight);
+  line-height: 1.285;
+}
+
+.unique-dark-color {
+  color: var(--smoky-black-color);
+}
+
+@media screen and (min-width: 768px) {
+  .unique-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .unique-h2 {
+    min-width: 411px;
+    font-size: var(--title-font-size);
+    line-height: 28px;
+    letter-spacing: -0.72px;
+  }
+
+  .unique-paragraph {
+    margin: 28px 0 52px 0;
+    width: 486px;
+    height: 72px;
+  }
+
+  .unique-list-component:nth-child(1) {
+    order: 1;
+  }
+
+  .unique-list-component:nth-child(2) {
+    order: 3;
+  }
+
+  .unique-list-component:nth-child(3) {
+    order: 4;
+  }
+
+  .unique-list-component:nth-child(4) {
+    order: 2;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .unique-h2 {
+    min-width: 411px;
+    font-size: var(--title-font-size);
+    line-height: 28px;
+    letter-spacing: -0.72px;
+  }
+
+  .unique-paragraph {
+    margin: 28px 0 52px 0;
+    width: 486px;
+    height: 72px;
+  }
+
+  .unique-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 19px;
+  }
+
+  .unique-list-component {
+    min-width: 270px;
+    height: 270px;
+  }
+
+  .unique-list-component:nth-child(1) {
+    background: url(../images/unique-components/desktop-unique-chocolate-bar.png) no-repeat,
+      var(--carrot-orange-color);
+    background-position: 50% 28px;
+    order: 1;
+  }
+
+  .unique-list-component:nth-child(2) {
+    background: url(../images/unique-components/desktop-unique-milk.png) no-repeat,
+      var(--white-color);
+    background-position: 50% 28px;
+    border: 1px solid var(--carrot-orange-color);
+    order: 2;
+  }
+
+  .unique-list-component:nth-child(3) {
+    background: url(../images/unique-components/desktop-unique-nut.png) no-repeat,
+      var(--eerie-black-color);
+    background-position: 50% 28px;
+    order: 3;
+  }
+
+  .unique-list-component:nth-child(4) {
+    background: url(../images/unique-components/desktop-unique-chocolate-beans.png) no-repeat,
+      var(--white-color);
+    background-position: 50% 28px;
+    border: 1px solid var(--carrot-orange-color);
+    order: 4;
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .unique-list-component:nth-child(1) {
+      background-image: url(../images/unique-components/mobile-unique-chocolate-bar@2x.png);
+    }
+
+    .unique-list-component:nth-child(2) {
+      background-image: url(../images/unique-components/mobile-unique-milk@2x.png);
+    }
+
+    .unique-list-component:nth-child(3) {
+      background-image: url(../images/unique-components/mobile-unique-nut@2x.png);
+    }
+
+    .unique-list-component:nth-child(4) {
+      background-image: url(../images/unique-components/mobile-unique-chocolate-beans@2x.png);
+    }
+  }
+}
