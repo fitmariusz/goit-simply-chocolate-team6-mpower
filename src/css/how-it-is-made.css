@@ -1,170 +1,131 @@
-/* -----------------------MOBILE VERSION------------------------------- */
-@media (max-width: 375px) {
-  .section-howitsmade {
-    position: fixed;
-    display: flex;
-    width: 335px;
-    height: 1032px;
-    top: 3032px;
-    left: 20px;
-    gap: 32px;
-  }
-  .heading-howitis {
-    width: 171px;
-    height: 24px;
-    font-weight: var(--bold-weight);
-    font-size: var(--title-font-size);
-    color: var(--smoky-black-color);
-    line-height: 28px;
-    letter-spacing: -3%;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  .span-made {
-    color: var(--carrot-orange-color);
-  }
-  .container-howitsmade {
-    position: fixed;
-    display: flex;
-    width: 335px;
-    height: 976px;
-    gap: 20px;
-  }
 
-  .img-howitsmade {
-    width: 335px;
-    height: 500px;
-    border-radius: 15px;
-  }
-  .div-receipt {
-    width: 335px;
-    height: px;
-    border-radius: 15px;
-    background-color: var(--white-color);
-  }
-  .heading-receipt {
-    width: 307px;
-    height: 72px;
-    font-size: var(--sub-title-font-size);
-    line-height: 24px;
-  }
-  .list-receipt {
-    width: 307px;
-    height: 324px;
-    gap: 18px;
-  }
-
-  .list-first-step {
-    width: 291px;
-    height: 54px;
-    left: 16px;
-  }
-  .list-second-step {
-    width: 291px;
-    height: 36px;
-    left: 16px;
-  }
-  .list-third-step {
-    width: 291px;
-    height: 72px;
-    left: 16px;
-  }
-  .list-fourth-step {
-    width: 291px;
-    height: 36px;
-    left: 16px;
-  }
-  .list-fifth-step {
-    width: 291px;
-    height: 54px;
-    left: 16px;
-  }
+/*====MOBILE===*/
+@media screen and (min-width: 375px) {
+.how-its-made-section {
+  min-width: 375px;
+  margin: 72px 20px 72px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  flex-shrink: 0;
 }
 
-/* -----------------------TABLET VERSION------------------------------- */
-
-@media (min-width: 768px) {
+.how-its-made-heading {
+  color: var(--smoky-black-color);
+  font-size: 20px;
+  font-weight: var(--bold-weight);
+  line-height: var(--mobile-title-font-size);
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.recipe-list {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  text-align: left;
 }
 
-/* -------------------------DESKTOP VERSION---------------------------- */
-@media (min-width: 1200px) {
-  .section-howitsmade {
-    position: fixed;
-    display: flex;
-    width: 1136px;
-    height: 478px;
-    top: 1828px;
-    left: 32px;
+.how-its-made-span {
+  color: var(--carrot-orange-color)
+}
+
+.how-its-made-recipe-div {
+  display: flex;
+  padding: 20px 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--snow-color);
+}
+
+
+/*iframe {
+  display: block;
+  position: relative;
+  width: 335px;
+  height: 500px;
+  border-radius: 15px;
+  border-style: hidden;
+  border-width: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url(/src/images/how-its-made/image_mobile@1x.jpg),
+    lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
+}*/
+
+.how-its-made-video-container {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url(/src/images/how-its-made/how-its-made-mobile@1x.jpg),
+    lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
+  width: 335px;
+  height: 500px;
+  border-radius: 15px;
+  border-style: hidden;
+  display: block;
+  position: relative;
+}
+
+.how-its-made-video-container svg {
+  position: absolute;
+  fill: var(--snow-color);
+  left: 150px;
+  top: 233px;
+}
+
+.chocolate-recipe-heading {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--smoky-black-color);
+  width: 307px;
+}
+.recipe-desc {
+  justify-content: center;
+  align-content: center;
+  font-family: 'montserrat';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  color: var(--smoky-black-color);
+  padding: 10px;
+}
+}
+/*===TABLET===*/
+@media screen and (min-width: 768px)  {
+  .how-its-made-section {
+    min-width: 769px;
+    margin: 0 auto 20px;
     gap: 50px;
   }
-  .heading-howitis {
-    width: 205px;
-    height: 28px;
-    font-weight: var(--bold-weight);
-    font-size: var(--title-font-size);
-    color: var(--smoky-black-color);
-    line-height: 28px;
-    letter-spacing: -3%;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  .container-howitsmade {
-    position: fixed;
-    display: flex;
-    width: 1136px;
+
+  .how-its-made-video-container {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+      url(/src/images/how-its-made/how-its-made-tablet@1x.jpg),
+      lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
+    width: 614px;
     height: 400px;
-    gap: 20px;
-  }
-  .span-made {
-    color: var(--carrot-orange-color);
-  }
-  ceipt {
-    width: 516px;
-    height: 400px;
-    border-radius: 15px;
-    background-color: var(--white-color);
-  }
-  .heading-receipt {
-    width: 350px;
-    height: 48px;
-    font-size: var(--sub-title-font-size);
-    line-height: 24px;
-  }
-  .list-receipt {
-    width: 452px;
-    height: 260px;
-    gap: 24px;
   }
 
-  .list-first-step {
-    width: 436px;
-    height: 36px;
-    left: 16px;
-  }
-  .list-second-step {
-    width: 409px;
-    height: 18px;
-    left: 16px;
-  }
-  .list-third-step {
-    width: 409px;
-    height: 54px;
-    left: 16px;
-  }
-  .list-fourth-step {
-    width: 347px;
-    height: 18px;
-  }
-  .list-fifth-step {
-    width: 347px;
-    height: 18px;
+  .how-its-made-video-container svg {
+    left: 285px;
+    top: 178px;
   }
 
-  .list-style {
-    font-family: var(--font-montserrat);
-    font-weight: var(--light-weight);
-    font-size: var(--description-font-size);
-    line-height: 18px;
-    letter-spacing: -2%;
+  .how-its-made-recipe-div {
+    width: 614px;
+    height: 356px;
+    gap: 28px;
+    padding: 32px;
+  }
+}
+/*===DESKTOP===*/
+@media screen and (min-width: 1200px) {
+  .how-its-made-section {
+    min-width: 1200px;
+    margin: 0 auto 20px;
   }
 }
