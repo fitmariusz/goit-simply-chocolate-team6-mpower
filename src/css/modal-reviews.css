@@ -143,6 +143,23 @@
   border: 1px solid var(--carrot-orange-color);
   cursor: pointer;
 }
+@media screen and (max-width: 350px) {
+  .reviews-modal {
+    width: 90vw;
+  }
+  .reviews-input,
+  .reviews-textarea {
+    width: 100%;
+  }
+  .review-modal-title {
+    font-size: 16px;
+    padding: 30px 10px 30px 30px;
+  }
+  .send-btn {
+    margin-top: 12px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .reviews-modal {
     width: 517px;
