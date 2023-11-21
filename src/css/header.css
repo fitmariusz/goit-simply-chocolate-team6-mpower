@@ -1,17 +1,3 @@
-
-
-.link {
-    text-decoration: none;
-}
-
-.list {
-    list-style: none;
-}
-
-img {
-    display: block;
-}
-
 .header-container {
     display: flex;
     justify-content: space-between;
