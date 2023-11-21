@@ -90,7 +90,7 @@
 }
 .reviews-pagination-svg {
   cursor: pointer;
-  fill: --smoky-transparent-black-color;
+  fill: var(--smoky-transparent-black-color);
 }
 .orange-svg {
   fill: var(--carrot-orange-color);
