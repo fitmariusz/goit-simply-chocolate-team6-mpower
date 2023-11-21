@@ -45,4 +45,7 @@
 <path fill="#ffd700" style="fill: var(--color1, #ffd700)" d="M40.209 0.495h-39.902v29.695h39.902v-29.695z"></path>
 <path fill="#0057b7" style="fill: var(--color2, #0057b7)" d="M0.307 0.495h39.902v14.847h-39.902v-14.847z"></path>
 </symbol>
+<symbol id="icon-hamburger" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/>
+</symbol>
 </defs></svg>
