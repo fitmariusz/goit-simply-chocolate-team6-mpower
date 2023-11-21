@@ -85,7 +85,16 @@ a {
 nav ul {
     list-style: none;
 }
-
+ul {
+    list-style: none;
+}
+.list{
+   list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: inherit
+}
 /* -------- STYLES -------- */
 html {
     background: #fafafa;
