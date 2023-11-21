@@ -95,11 +95,18 @@
 .orange-svg {
   fill: var(--carrot-orange-color);
 }
-
+@media screen and (max-width: 360px) {
+  .reviews-slide {
+    width: 90vw;
+  }
+  .reviews-description {
+    width: 90vw;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  /* .reviews {
-    width: 768px;
-  } */
+  .reviews {
+    height: 463px;
+  }
   .reviews-slider-container {
     width: 704px;
     height: 204px;
@@ -112,6 +119,9 @@
   }
   .reviews-slide:nth-child(2) {
     display: block;
+  }
+  .reviews-btn {
+    margin-top: 80px;
   }
 }
 @media screen and (min-width: 1201px) {
