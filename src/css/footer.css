@@ -146,7 +146,6 @@
 
   .footer-container {
     display: flex;
-    justify-content: space-between;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
@@ -165,10 +164,11 @@
     stroke: var(--white-color);
     width: 24px;
     height: 24px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .footer-icon-a:hover,
-  .footer-icon-a:focus {
+  .footer-svg:hover,
+  .footer-svg:focus {
     stroke: var(--carrot-orange-color);
   }
 }
@@ -237,7 +237,6 @@
 
   .footer-container {
     display: flex;
-    justify-content: space-between;
     margin: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
@@ -258,10 +257,11 @@
     stroke: var(--white-color);
     width: 24px;
     height: 24px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .footer-icon-a:hover,
-  .footer-icon-a:focus {
+  .footer-svg:hover,
+  .footer-svg:focus {
     stroke: var(--carrot-orange-color);
   }
 }
