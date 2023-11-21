@@ -44,4 +44,6 @@
 <symbol id="icon-hamburger" viewBox="0 0 20 20">
 <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/>
 </symbol>
+<symbol id="icon-play" viewBox="0 0 32 32"><path fill="#f5f4f4" d="M10.909 24V8.727l14.545 7.636-14.545 7.636z" style="fill:var(--color8, #f5f4f4)"/><path fill="none" stroke="#fff" stroke-width=".727" d="M31.636 16c0 8.636-7.001 15.636-15.636 15.636S.364 24.635.364 16C.364 7.364 7.365.364 16 .364S31.636 7.365 31.636 16z" style="stroke:var(--color9, #fff)"/>
+</symbol>
 </defs></svg>
