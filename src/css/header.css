@@ -228,6 +228,8 @@
 
 
     .header-sm-svg {
+        stroke: var(--color-black);
+        fill: transparent;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
     }
 
