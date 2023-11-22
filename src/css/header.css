@@ -39,7 +39,6 @@
     background-color: transparent;
     border: none;
 }
-
 .js-close-menu {
     stroke: var(--color-white);
 }
@@ -153,12 +152,10 @@
         width: 32px;
         height: 32px;
     }
-    .js-close-menu {
-       width: 32px;
-       height: 32px; 
-    }
-
+    
     .header-modal-button {
+        width: 32px;
+        height: 32px;
         top: 24px;
         right: 32px;
     }
