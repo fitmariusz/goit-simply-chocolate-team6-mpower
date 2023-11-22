@@ -41,7 +41,7 @@
 }
 
 .js-close-menu {
-    fill: var(--color-white);
+    stroke: var(--color-white);
 }
 
 .header-nav-mobile {
@@ -152,6 +152,10 @@
     .header-menu {
         width: 32px;
         height: 32px;
+    }
+    .js-close-menu {
+       width: 32px;
+       height: 32px; 
     }
 
     .header-modal-button {
