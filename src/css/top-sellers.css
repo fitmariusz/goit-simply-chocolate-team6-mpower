@@ -70,6 +70,9 @@
 /* ================================================= TABLET 👇 ========================================= */
 @media screen and (min-width: 768px) {
 
+    .top-sellers-title {
+        font-size: 24px;
+    }
     .top-sellers-text-mobile {
         display: none;
     }
@@ -82,7 +85,8 @@
     }
 
     .top-sellers-images {
-        display: flex;
+        display:flex;
+        justify-content: center;
         gap: 16px;
         margin:auto;
 
@@ -116,6 +120,7 @@
 
     .top-sellers-button {
         padding-top: 0;
+        margin-bottom: 72px;
     }
 
 
