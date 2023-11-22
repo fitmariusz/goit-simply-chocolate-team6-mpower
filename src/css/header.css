@@ -38,10 +38,10 @@
     right: 20px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
-
 .js-close-menu {
-    fill: var(--color-white);
+    stroke: var(--color-white);
 }
 
 .header-nav-mobile {
@@ -72,7 +72,7 @@
 .sm-svg-mobile {
     stroke: var(--color-white);
     fill: transparent;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .sm-svg-mobile:focus,
@@ -153,8 +153,10 @@
         width: 32px;
         height: 32px;
     }
-
+    
     .header-modal-button {
+        width: 32px;
+        height: 32px;
         top: 24px;
         right: 32px;
     }
@@ -212,7 +214,6 @@
     .header-nav-links {
         display: flex;
         gap: 24px;
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
     }
 
     .header-nav-links .link {
@@ -220,6 +221,7 @@
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: -0.28px;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .header-nav-links .link:hover,
@@ -231,7 +233,7 @@
     .header-sm-svg {
         stroke: var(--color-black);
         fill: transparent;
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
+        transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1)
     }
 
     .header-sm-svg:hover,
