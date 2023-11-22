@@ -21,14 +21,14 @@
   background-size: cover;
   border-radius: 30px;
 }
-/* @media (min-device-pixel-ratio: 2),
+@media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 2dppx),
-  screen and (max-width: 768px) and (min-resolution: 192dpi) {
+  (min-resolution: 192dpi) {
   .hero-container {
-    background-image: url(../IMG/Hero/Mobile/chocolate-covered-cocoa-powder\ 1@2x.png);
+    background-image: url(../images/hero/hero-bg-mobile@2x.png);
   }
-} */
+}
 .hero-sub-title {
   color: var(--white-color);
   font-family: 'Montserrat', sans-serif;
@@ -194,14 +194,14 @@
     height: 38px;
   }
 }
-/* @media (min-device-pixel-ratio: 2),
+@media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 2dppx),
-  screen and (min-width: 769px) and (max-width: 1200px) and (min-resolution: 192dpi) {
+  (min-resolution: 192dpi) {
   .hero-container {
-    background-image: url(../IMG/Hero/Tablet/chocolate-covered-cocoa-powder\ 1@2x.png);
+    background-image: url(../images/hero/hero-bg-tablet@2x.png);
   }
-} */
+}
 @media screen and (min-width: 1200px) {
   .hero {
     margin-bottom: 72px;
@@ -227,11 +227,11 @@
     height: 38px;
   }
 }
-/* @media (min-device-pixel-ratio: 2),
+@media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 2dppx),
-  screen and (min-width: 1201px) and (min-resolution: 192dpi) {
+  (min-resolution: 192dpi) {
   .hero-container {
-    background-image: url(../IMG/Hero/Desktop/chocolate-covered-cocoa-powder\ 1@2x.png);
+    background-image: url(../images/hero/hero-bg-desktop@2x.png);
   }
-} */
+}
