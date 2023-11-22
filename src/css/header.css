@@ -38,6 +38,7 @@
     right: 20px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 .js-close-menu {
     stroke: var(--color-white);
