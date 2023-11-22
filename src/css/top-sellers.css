@@ -1,7 +1,9 @@
 /* ================================================= MOBILE 👇 ========================================= */
 @media screen and (min-width: 320px) {
 
-
+.top-sellers{
+    justify-content: center;
+}
     .top-sellers-title {
         color: var(--color-black);
         font-family: var(--font-montserrat);
@@ -13,7 +15,9 @@
         text-align: center;
         padding-bottom: 32px;
     }
-
+.top-sellers-img{
+    border-radius: 15px;
+}
     .top-sellers-title-top {
         color: var(--carrot-orange-color);
     }
@@ -141,6 +145,7 @@
 
     .top-sellers-img-last {
         display: block;
+        border-radius: 15px;
     }
 
     .top-sellers-description-button {
