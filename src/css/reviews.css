@@ -1,8 +1,9 @@
 .reviews {
-  height: 404px;
+  min-height: 404px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 72px;
 }
 .reviews-title {
   padding-bottom: 74px;
@@ -61,11 +62,11 @@
 .reviewer-photo {
   position: absolute;
   left: 50%;
-  top: 0;
+  top: -3%;
   transform: translate(-50%, -50%);
 }
 .reviews-btn {
-  margin-top: 32px;
+  margin: 32px 0 0;
   padding: 12px 28px;
   border-radius: 100px;
   border: 1px solid var(--carrot-orange-color);
@@ -86,7 +87,7 @@
   display: flex;
   justify-content: center;
   gap: 13px;
-  padding-top: 32px;
+  padding-top: 20px;
 }
 .reviews-pagination-svg {
   cursor: pointer;
@@ -103,9 +104,14 @@
     width: 90vw;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .reviews {
-    height: 463px;
+    min-height: 463px;
+    margin-bottom: 100px;
+  }
+  .reviews-title {
+    padding-bottom: 91px;
+    font-size: 24px;
   }
   .reviews-slider-container {
     width: 704px;
@@ -117,17 +123,33 @@
     align-items: center;
     justify-content: center;
   }
+  .reviews-slide {
+    width: 344px;
+  }
   .reviews-slide:nth-child(2) {
     display: block;
   }
+  .reviews-description {
+    width: 312px;
+    height: 70px;
+  }
+  .pagination {
+    padding-top: 32px;
+  }
   .reviews-btn {
-    margin-top: 80px;
+    margin: 94px 0 0;
+    font-size: 18px;
+    padding: 14px 40px;
   }
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1200px) {
   .reviews {
-    /* width: 1200px; */
-    height: 463px;
+    min-height: 463px;
+    margin-bottom: 128px;
+  }
+  .reviews-title {
+    padding-bottom: 91px;
+    font-size: 24px;
   }
   .reviews-slider-container {
     width: 1136px;
@@ -141,8 +163,20 @@
   }
   .reviews-slider {
     display: flex;
-    gap: 16px;
+    gap: 28px;
     align-items: center;
     justify-content: center;
+  }
+  .reviews-description {
+    width: 312px;
+    height: 70px;
+  }
+  .pagination {
+    padding-top: 32px;
+  }
+  .reviews-btn {
+    margin: 50px 0 0;
+    font-size: 18px;
+    padding: 14px 40px;
   }
 }
