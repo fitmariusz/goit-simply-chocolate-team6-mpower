@@ -1,12 +1,10 @@
 .reviews {
-  min-height: 404px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-top: 72px;
   margin-bottom: 72px;
+  padding-left: 20px;
 }
+
 .reviews-title {
-  padding-bottom: 74px;
   color: var(--smoky-black-color);
   font-family: Montserrat;
   font-size: 20px;
@@ -16,30 +14,36 @@
   letter-spacing: -0.6px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 32px;
 }
 .reviews-span {
   color: var(--carrot-orange-color);
 }
-.reviews-slider-container {
-  width: 335px;
-  margin: 0 auto;
+
+.reviews-slider.splide__list {
+  height: 250px;
+  gap: 16px;
+  align-items: flex-end;
 }
-.reviews-slide {
-  position: relative;
-  height: 200px;
-  width: 335px;
+
+.reviews-slide.splide__slide {
+  max-width: fit-content;
+}
+
+.tile-wrapper-rev.splide__slide__container {
   border-radius: 15px;
   border: 1px solid var(--smoky-transparent-black-color);
-  background: --white-color;
+  background: var(--white-color);
   box-shadow: 0px 9.04932px 26.57166px 0px rgba(215, 228, 249, 0.25);
-  display: none;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  padding: 0 18px;
 }
-.reviews-slide:nth-child(1) {
-  display: block;
-}
+
 .reviewer-name {
   padding: 56px 0 24px;
-  color: --smoky-black-color;
+  color: var(--smoky-black-color);
   text-align: center;
   font-family: Montserrat;
   font-size: 18px;
@@ -62,11 +66,17 @@
 .reviewer-photo {
   position: absolute;
   left: 50%;
-  top: -3%;
+  top: 0;
   transform: translate(-50%, -50%);
 }
+
+.rev-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .reviews-btn {
-  margin: 32px 0 0;
+  margin-top: 32px;
   padding: 12px 28px;
   border-radius: 100px;
   border: 1px solid var(--carrot-orange-color);
@@ -83,100 +93,45 @@
   background-color: var(--carrot-orange-color);
   color: var(--white-color);
 }
-.pagination {
-  display: flex;
-  justify-content: center;
-  gap: 13px;
-  padding-top: 20px;
-}
-.reviews-pagination-svg {
-  cursor: pointer;
-  fill: var(--smoky-transparent-black-color);
-}
-.orange-svg {
-  fill: var(--carrot-orange-color);
-}
-@media screen and (max-width: 360px) {
-  .reviews-slide {
-    width: 90vw;
-  }
-  .reviews-description {
-    width: 90vw;
-  }
-}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .reviews {
-    min-height: 463px;
+    margin-top: 100px;
     margin-bottom: 100px;
+    padding-left: 32px;
   }
+
   .reviews-title {
-    padding-bottom: 91px;
     font-size: 24px;
+    margin-bottom: 50px;
   }
-  .reviews-slider-container {
-    width: 704px;
-    height: 204px;
+
+  .tile-wrapper-rev.splide__slide__container {
+    min-width: 344px;
   }
-  .reviews-slider {
-    display: flex;
+
+  .reviews-slider.splide__list {
     gap: 16px;
-    align-items: center;
-    justify-content: center;
   }
-  .reviews-slide {
-    width: 344px;
-  }
-  .reviews-slide:nth-child(2) {
-    display: block;
-  }
-  .reviews-description {
-    width: 312px;
-    height: 70px;
-  }
-  .pagination {
-    padding-top: 32px;
-  }
+
   .reviews-btn {
-    margin: 94px 0 0;
-    font-size: 18px;
+    margin-top: 50px;
     padding: 14px 40px;
+    font-size: var(--sub-title-font-size);
   }
 }
 @media screen and (min-width: 1200px) {
   .reviews {
-    min-height: 463px;
+    margin-top: 128px;
     margin-bottom: 128px;
+    padding-left: 32px;
   }
-  .reviews-title {
-    padding-bottom: 91px;
-    font-size: 24px;
-  }
-  .reviews-slider-container {
-    width: 1136px;
-  }
-  .reviews-slide {
-    width: 360px;
-  }
-  .reviews-slide:nth-child(2),
-  .reviews-slide:nth-child(3) {
-    display: block;
-  }
-  .reviews-slider {
-    display: flex;
+
+  .reviews-slider.splide__list {
     gap: 28px;
-    align-items: center;
-    justify-content: center;
   }
-  .reviews-description {
-    width: 312px;
-    height: 70px;
-  }
-  .pagination {
-    padding-top: 32px;
-  }
-  .reviews-btn {
-    margin: 50px 0 0;
-    font-size: 18px;
-    padding: 14px 40px;
+
+  .tile-wrapper-rev.splide__slide__container {
+    min-width: 360px;
   }
 }
