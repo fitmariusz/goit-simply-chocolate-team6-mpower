@@ -221,6 +221,7 @@ body {
   border: none;
   background: none;
   cursor: pointer;
+  fill: black;
 }
 
 .modal-form:nth-of-type(2) {
