@@ -526,7 +526,7 @@ body {
   }
 
   .product-item:nth-child(1) .milk-chocolate {
-    background-image: url(".../images/buy-now/buy-now-img1-desktop-tab@1x.jpg");
+    background-image: url("../images/buy-now/buy-now-img1-desktop-tab@1x.jpg");
   }
 
   .product-item:nth-child(2) .milk-chocolate {
