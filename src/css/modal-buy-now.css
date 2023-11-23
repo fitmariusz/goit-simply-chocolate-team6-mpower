@@ -70,6 +70,7 @@ input::-webkit-inner-spin-button {
 }
 
 .milk-chocolate {
+  background-size: 84px 69px;
   width: 84px;
   height: 69px;
 }
@@ -413,6 +414,7 @@ input::-webkit-inner-spin-button {
   }
 
   .milk-chocolate {
+    background-size: 120px 107px;
     width: 120px;
     height: 107px;
   }
@@ -517,6 +519,7 @@ input::-webkit-inner-spin-button {
     padding-left: 48px;
   }
   .milk-chocolate {
+    background-size: 120px 107px;
     width: 120px;
     height: 107px;
   }
@@ -534,12 +537,11 @@ input::-webkit-inner-spin-button {
   }
 
   @media only screen and (-webkit-min-device-pixel-ratio: 2),
-    /* only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
     only screen and (-o-min-device-pixel-ratio: 2/1),
-    only screen and (min-device-pixel-ratio: 2), */
+    only screen and (min-device-pixel-ratio: 2),
     only screen and (min-resolution: 192dpi),
-    /* only screen and (min-resolution: 2dppx)  */
-    {
+    only screen and (min-resolution: 2dppx) {
     .product-item:nth-child(1) .milk-chocolate {
       background-image: url('../images/buy-now/buy-now-img1-desktop-tab@2x.jpg');
     }
