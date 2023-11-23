@@ -1,6 +1,6 @@
 /*===MOBILE====*/
 
-@media screen and (min-width: 320px) {
+
   #him-section {
     display: flex;
     max-width: 768px;
@@ -128,7 +128,7 @@
     url(../images/how-its-made/how-its-made-mobile@1x.jpg),
     lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
 }
-}
+
 
 /*===TABLET===*/
 @media screen and (min-width: 768px) {
