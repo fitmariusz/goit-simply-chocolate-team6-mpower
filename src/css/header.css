@@ -48,6 +48,17 @@
 .header-modal-button:hover {
     stroke: var(--color-orange);
 }
+.x-button {
+    width: 28px;
+    height: 28px;
+    transition: 250ms ease-in-out;
+}
+
+.x-button:hover,
+.x-button:focus {
+    width: 40px;
+    height: 40px;
+}
 
 .header-nav-mobile {
     margin-top: 136px;
@@ -157,6 +168,10 @@
     }
 
     .header-menu {
+        width: 32px;
+        height: 32px;
+    }
+    .x-button {
         width: 32px;
         height: 32px;
     }
