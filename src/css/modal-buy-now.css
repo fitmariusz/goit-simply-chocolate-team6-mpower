@@ -86,15 +86,15 @@ body {
 }
 
 .product-item:nth-child(1) .milk-chocolate {
-  background-image: url("./images/buy-now/buy-now-img1-mobile@1x.jpg");
+  background-image: url("../images/buy-now/buy-now-img1-mobile@1x.jpg");
 }
 
 .product-item:nth-child(2) .milk-chocolate {
-  background-image: url("./images/buy-now/buy-now-img2-mobile@1x.jpg");
+  background-image: url("../images/buy-now/buy-now-img2-mobile@1x.jpg");
 }
 
 .product-item:nth-child(3) .milk-chocolate {
-  background-image: url("./images/buy-now/buy-now-img3-mobile@1x.jpg");
+  background-image: url("../images/buy-now/buy-now-img3-mobile@1x.jpg");
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -104,15 +104,15 @@ body {
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
   .product-item:nth-child(1) .milk-chocolate {
-    background-image: url("./images/buy-now/buy-now-img1-mobile@2x.jpg");
+    background-image: url("../images/buy-now/buy-now-img1-mobile@2x.jpg");
   }
 
   .product-item:nth-child(2) .milk-chocolate {
-    background-image: url("./images/buy-now/buy-now-img2-mobile@2x.jpg");
+    background-image: url("../images/buy-now/buy-now-img2-mobile@2x.jpg");
   }
 
   .product-item:nth-child(3) .milk-chocolate {
-    background-image: url("./images/buy-now/buy-now-img3-mobile@2x.jpg");
+    background-image: url("../images/buy-now/buy-now-img3-mobile@2x.jpg");
   }
 }
 
@@ -424,15 +424,15 @@ body {
   }
 
   .product-item:nth-child(1) .milk-chocolate {
-    background-image: url("./images/buy-now/buy-now-img1-desktop-tab@1x.jpg");
+    background-image: url("../images/buy-now/buy-now-img1-desktop-tab@1x.jpg");
   }
 
   .product-item:nth-child(2) .milk-chocolate {
-    background-image: url("./images/buy-now/buy-now-img2-desktop-tab@1x.jpg");
+    background-image: url("../images/buy-now/buy-now-img2-desktop-tab@1x.jpg");
   }
 
   .product-item:nth-child(3) .milk-chocolate {
-    background-image: url("./images/buy-now/buy-now-img3-desktop-tab@1x.jpg");
+    background-image: url("../images/buy-now/buy-now-img3-desktop-tab@1x.jpg");
   }
 
   @media only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -442,15 +442,15 @@ body {
     only screen and (min-resolution: 192dpi),
     only screen and (min-resolution: 2dppx) {
     .product-item:nth-child(1) .milk-chocolate {
-      background-image: url("./images/buy-now/buy-now-img1-desktop-tab@2x.jpg");
+      background-image: url("../images/buy-now/buy-now-img1-desktop-tab@2x.jpg");
     }
 
     .product-item:nth-child(2) .milk-chocolate {
-      background-image: url("./images/buy-now/buy-now-img2-desktop-tab@2x.jpg");
+      background-image: url("../images/buy-now/buy-now-img2-desktop-tab@2x.jpg");
     }
 
     .product-item:nth-child(3) .milk-chocolate {
-      background-image: url("./images/buy-now/buy-now-img3-desktop-tab@2x.jpg");
+      background-image: url("../images/buy-now/buy-now-img3-desktop-tab@2x.jpg");
     }
   }
 }
@@ -526,15 +526,15 @@ body {
   }
 
   .product-item:nth-child(1) .milk-chocolate {
-    background-image: url("./images/buy-now/buy-now-img1-desktop-tab@1x.jpg");
+    background-image: url(".../images/buy-now/buy-now-img1-desktop-tab@1x.jpg");
   }
 
   .product-item:nth-child(2) .milk-chocolate {
-    background-image: url("./images/buy-now/buy-now-img2-desktop-tab@1x.jpg");
+    background-image: url("../images/buy-now/buy-now-img2-desktop-tab@1x.jpg");
   }
 
   .product-item:nth-child(3) .milk-chocolate {
-    background-image: url("./images/buy-now/buy-now-img3-desktop-tab@1x.jpg");
+    background-image: url("../images/buy-now/buy-now-img3-desktop-tab@1x.jpg");
   }
 
   @media only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -544,15 +544,15 @@ body {
     only screen and (min-resolution: 192dpi),
     only screen and (min-resolution: 2dppx) {
     .product-item:nth-child(1) .milk-chocolate {
-      background-image: url("./images/buy-now/buy-now-img1-desktop-tab@2x.jpg");
+      background-image: url("../images/buy-now/buy-now-img1-desktop-tab@2x.jpg");
     }
 
     .product-item:nth-child(2) .milk-chocolate {
-      background-image: url("./images/buy-now/buy-now-img2-desktop-tab@2x.jpg");
+      background-image: url("../images/buy-now/buy-now-img2-desktop-tab@2x.jpg");
     }
 
     .product-item:nth-child(3) .milk-chocolate {
-      background-image: url("./images/buy-now/buy-now-img3-desktop-tab@2x.jpg");
+      background-image: url("../images/buy-now/buy-now-img3-desktop-tab@2x.jpg");
     }
   }
 }
