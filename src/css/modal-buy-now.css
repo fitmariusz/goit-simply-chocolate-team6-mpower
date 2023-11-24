@@ -18,8 +18,16 @@
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
 }
 
 /* ============MOBILE============ */
@@ -357,6 +365,19 @@ input::-webkit-inner-spin-button {
     padding: 48px 48.5px;
     overflow: scroll;
   }
+
+  .buy-now-modal::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .buy-now-modal {
+    scrollbar-width: thin;
+  }
+  
+  .buy-now-modal::-webkit-scrollbar-thumb {
+    display: none;
+  }
+
   .close-btn {
     position: absolute;
     top: 31px;
@@ -469,6 +490,18 @@ input::-webkit-inner-spin-button {
     height: 90%;
     padding: 48px 48.5px;
     overflow: scroll;
+  }
+
+  .buy-now-modal::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .buy-now-modal {
+    scrollbar-width: thin;
+  }
+  
+  .buy-now-modal::-webkit-scrollbar-thumb {
+    display: none;
   }
 
   .close-btn {
