@@ -156,6 +156,7 @@ input[type="number"]:focus {
   line-height: 24px; /* 120% */
   letter-spacing: -0.6px;
   text-transform: uppercase;
+  padding-bottom: 32px;
   /* padding: 0 105px 32px 104px; */
   white-space: nowrap;
 }
@@ -393,6 +394,7 @@ input[type="number"]:focus {
   .header-buy-now {
     font-size: 24px;
     letter-spacing: -0.72px;
+    padding-bottom: 32px;
     /* padding: 0 244px 32px 243px; */
   }
 
@@ -519,6 +521,7 @@ input[type="number"]:focus {
   .header-buy-now {
     font-size: 24px;
     letter-spacing: -0.72px;
+    padding-bottom: 32px;
     /* padding: 0 244px 32px 243px; */
   }
 
