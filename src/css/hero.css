@@ -154,7 +154,19 @@
 .hero-scroll-icon:focus {
   background-color: var(--carrot-orange-color);
 }
-
+@media screen and (max-width: 375px) {
+  .hero-container {
+    width: 85vw;
+  }
+  .hero-sub-title {
+    font-size: 16px;
+  }
+  .hero-link,
+  .hero-buy-btn {
+    padding: 6px 18px;
+    font-size: 9px;
+  }
+}
 @media screen and (min-width: 768px) {
   @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
     .hero-container {
