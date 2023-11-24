@@ -93,6 +93,7 @@ ul {
 /* -------- STYLES -------- */
 html {
   background: #fafafa;
+  min-width: 375px;
 }
 
 .container {
