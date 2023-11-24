@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 72px;
 }
 
 .unique-section > .container {
@@ -119,6 +120,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .unique-section {
+    margin-top: 100px;
+  }
   .unique-list {
     display: flex;
     flex-wrap: wrap;
@@ -157,6 +161,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .unique-section {
+    margin-top: 128px;
+  }
   .unique-h2 {
     min-width: 411px;
     font-size: var(--title-font-size);
