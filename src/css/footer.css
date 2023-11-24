@@ -3,6 +3,7 @@
   .footer-background {
     background-color: var(--eerie-black-color);
     padding: 32px 20px;
+    min-width: 375px;
   }
   .footer-slogan {
     color: var(--white-color);
@@ -45,6 +46,7 @@
     font-weight: var(--medium-weight);
     line-height: 16px;
     letter-spacing: -0.28px;
+    scroll-behavior: smooth;
   }
 
   .footer-sm-flex {
@@ -131,6 +133,7 @@
     line-height: 16px;
     letter-spacing: -0.28px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    scroll-behavior: smooth;
   }
 
   .footer-nav:hover,
@@ -228,6 +231,7 @@
     line-height: 16px;
     letter-spacing: -0.28px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    scroll-behavior: smooth;
   }
 
   .footer-nav:hover,
