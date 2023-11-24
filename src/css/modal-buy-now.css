@@ -52,9 +52,11 @@ input::-webkit-inner-spin-button {
   border-radius: 15px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 32px 24px 32px 24px;
-  width: 331px;
-  height: 994px;
-  overflow-y: auto;
+  max-width: 331px;
+  width: 100%;
+  max-height: 994px;
+  height: 90%;
+  overflow-y: scroll;
 }
 
 .buy-now-modal::-webkit-scrollbar {
@@ -146,7 +148,7 @@ input::-webkit-inner-spin-button {
   line-height: 24px; /* 120% */
   letter-spacing: -0.6px;
   text-transform: uppercase;
-  padding: 0 105px 32px 104px;
+  /* padding: 0 105px 32px 104px; */
   white-space: nowrap;
 }
 
@@ -348,11 +350,13 @@ input::-webkit-inner-spin-button {
 /* ============TABLET============ */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .buy-now-modal {
-    width: 609px;
-    height: 1058px;
+    max-width: 609px;
+    width: 100%;
+    max-height: 1058px;
+    height: 90%;
     padding: 48px 48.5px;
+    overflow: scroll;
   }
-
   .close-btn {
     position: absolute;
     top: 31px;
@@ -368,7 +372,7 @@ input::-webkit-inner-spin-button {
   .header-buy-now {
     font-size: 24px;
     letter-spacing: -0.72px;
-    padding: 0 244px 32px 243px;
+    /* padding: 0 244px 32px 243px; */
   }
 
   .product-list {
@@ -402,6 +406,11 @@ input::-webkit-inner-spin-button {
   .form-input {
     width: 513px;
     height: 66px;
+  }
+
+  .modal-form-icon,
+  .input-label {
+    top: 57%;
   }
 
   .textarea {
@@ -454,9 +463,12 @@ input::-webkit-inner-spin-button {
 /* ============DESKTOP============ */
 @media screen and (min-width: 1200px) {
   .buy-now-modal {
-    width: 609px;
-    height: 1058px;
+    max-width: 609px;
+    width: 100%;
+    max-height: 1058px;
+    height: 90%;
     padding: 48px 48.5px;
+    overflow: scroll;
   }
 
   .close-btn {
@@ -474,7 +486,7 @@ input::-webkit-inner-spin-button {
   .header-buy-now {
     font-size: 24px;
     letter-spacing: -0.72px;
-    padding: 0 244px 32px 243px;
+    /* padding: 0 244px 32px 243px; */
   }
 
   .product-list {
@@ -508,6 +520,11 @@ input::-webkit-inner-spin-button {
   .form-input {
     width: 513px;
     height: 66px;
+  }
+
+  .modal-form-icon,
+  .input-label {
+    top: 57%;
   }
 
   .textarea {
