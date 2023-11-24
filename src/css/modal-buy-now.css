@@ -408,6 +408,11 @@ input::-webkit-inner-spin-button {
     height: 137px;
   }
 
+  .modal-form-icon,
+  .input-label {
+    top: 57%;
+  }
+
   .btn-placement {
     width: 609px;
     padding-left: 48px;
@@ -508,6 +513,11 @@ input::-webkit-inner-spin-button {
   .form-input {
     width: 513px;
     height: 66px;
+  }
+
+  .modal-form-icon,
+  .input-label {
+    top: 57%;
   }
 
   .textarea {
