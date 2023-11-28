@@ -53,6 +53,7 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: var(--font-montserrat);
+  scroll-behavior: smooth;
 }
 
 body,

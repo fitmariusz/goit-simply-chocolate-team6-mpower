@@ -1,122 +1,119 @@
 /*===MOBILE====*/
 
+#him-section {
+  display: flex;
+  max-width: 768px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  margin-top: 72px;
+}
 
-  #him-section {
-    display: flex;
-    max-width: 768px;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
-    flex-shrink: 0;
-    margin: 0 auto;
-    margin-top: 70px;
-  }
+.him-heading {
+  color: var(--smoky-black-color);
+  text-align: center;
+  font-size: var(--mobile-title-font-size);
+  font-weight: var(--bold-weight);
+  line-height: 24px;
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
 
-  .him-heading {
-    color: var(--smoky-black-color);
-    text-align: center;
-    font-size: var(--mobile-title-font-size);
-    font-weight: var(--bold-weight);
-    line-height: 24px;
-    letter-spacing: -0.6px;
-    text-transform: uppercase;
-  }
+.him-span {
+  color: var(--carrot-orange-color);
+}
 
-  .him-span {
-    color: var(--carrot-orange-color);
-  }
+.him-container {
+  display: flex;
+  width: 320px;
+  height: 976px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
 
-  .him-container {
-    display: flex;
-    width: 320px;
-    height: 976px;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
+.him-video {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url(../images/how-its-made/how-its-made-mobile@1x.jpg);
+  width: 320px;
+  height: 500px;
+  border-radius: 15px;
+  border-style: hidden;
+  display: block;
+  position: relative;
+  margin-bottom: 20px;
+}
 
-
-  .him-video {
-    display: flex;
-    justify-content: center;
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .section-subscribe {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
-      url(../images/how-its-made/how-its-made-mobile@1x.jpg);
-    width: 320px;
-    height: 500px;
-    border-radius: 15px;
-    border-style: hidden;
-    display: block;
-    position: relative;
-    margin-bottom: 20px;
+      url(../images/how-its-made/how-its-made-mobile@2x.jpg);
   }
+}
 
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-      .section-subscribe {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
-          url(../images/how-its-made/how-its-made-mobile@2x.jpg);
-      }
-    }
+.him-video svg {
+  position: absolute;
+  fill: #f5f4f4;
+  left: 150px;
+  top: 233px;
+  width: 35px;
+  height: 35px;
+}
 
-  .him-video svg {
-    position: absolute;
-    fill: #f5f4f4;
-    left: 150px;
-    top: 233px;
-    width: 35px;
-    height: 35px;
-  }
+.him-recipe {
+  display: flex;
+  width: 335px;
+  height: 456px;
+  padding: 20px 15px 20px 20px;
+  flex-direction: column;
+  border-radius: 15px;
+  background: var(--color-white);
+  align-items: flex-start;
+}
 
-  .him-recipe {
-    display: flex;
-    width: 335px;
-    height: 456px;
-    padding: 20px 15px 20px 20px; 
-    flex-direction: column;
-    border-radius: 15px;
-    background: var(--color-white);
-    align-items: flex-start;
-  }
+.him-recipe-heading {
+  font-size: var(--sub-title-font-size);
+  font-weight: var(--bold-weight);
+  line-height: 24px;
+  color: var(--smoky-black-color);
+  margin-bottom: 20px;
+  width: 330px;
+  margin: 0 auto;
+}
 
-  .him-recipe-heading {
-    font-size: var(--sub-title-font-size);
-    font-weight: var(--bold-weight);
-    line-height: 24px;
-    color: var(--smoky-black-color);
-    margin-bottom: 20px;
-    width: 330px;
-    margin: 0 auto;
-  }
+.him-ul {
+  display: flex;
+  height: 416px;
+  width: 307px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  list-style: disc;
+  padding-left: 15px;
+  padding-top: 20px;
+}
 
-  .him-ul {
-    display: flex;
-    height: 416px;
-    width: 307px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 18px;
-    list-style: disc;
-    padding-left: 15px;
-    padding-top: 20px;
-  }
+.him-li {
+  width: calc(100% - 15px);
+}
 
-  .him-li {
-    width: calc(100% - 15px);
-  }
+.him-p {
+  color: var(--color-black);
+  font-size: var(--description-font-size);
+  font-style: normal;
+  font-weight: var(--light-weight);
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  width: 293px;
+}
 
-  .him-p {
-    color: var(--color-black);
-    font-size: var(--description-font-size);
-    font-style: normal;
-    font-weight: var(--light-weight);
-    line-height: 18px;
-    letter-spacing: -0.28px;
-    width: 293px;
-  }
-
-  iframe { 
+iframe {
   display: block;
   position: relative;
   width: 320px;
@@ -129,7 +126,6 @@
     lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
 }
 
-
 /*===TABLET===*/
 @media screen and (min-width: 768px) {
   #him-section {
@@ -141,6 +137,7 @@
     gap: 32px;
     flex-shrink: 0;
     margin: 0 auto;
+    margin-top: 100px;
   }
   .him-heading {
     color: var(--smoky-black-color);
@@ -152,7 +149,7 @@
     text-transform: uppercase;
     width: 100%;
     height: 100%;
-    padding: 100px 0px 20px 0px;
+    margin-bottom: 50px;
   }
 
   .him-span {
@@ -177,7 +174,7 @@
     flex-shrink: 0;
     position: relative;
   }
-  iframe { 
+  iframe {
     display: block;
     position: relative;
     width: 614px;
@@ -190,14 +187,12 @@
       lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
   }
 
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-      .section-subscribe {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
-          url(../images/how-its-made/how-its-made-tablet@2x.jpg);
-      }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .section-subscribe {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+        url(../images/how-its-made/how-its-made-tablet@2x.jpg);
     }
+  }
 
   .him-video svg {
     position: absolute;
@@ -226,21 +221,20 @@
     width: 350px;
     margin-left: 10px;
     margin-bottom: 20px;
-
   }
 
   .him-ul {
-   width: 100%;
-   padding-left: 30px; 
+    width: 100%;
+    padding-left: 30px;
   }
 
   .him-li {
     width: 464px;
   }
-.him-p {
-  width: 100%;
-  text-wrap: wrap;
-}
+  .him-p {
+    width: 100%;
+    text-wrap: wrap;
+  }
 }
 
 /*===DESKTOP===*/
@@ -248,7 +242,7 @@
   #him-section {
     min-width: 1200px;
     padding: 0px;
-    margin-top: 120px;
+    margin-top: 128px;
   }
 
   .him-container {
@@ -282,14 +276,12 @@
     flex-shrink: 0;
   }
 
-     @media (min-device-pixel-ratio: 2),
-     (min-resolution: 192dpi),
-     (min-resolution: 2dppx) {
-       .section-subscribe {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
-            url(../images/how-its-made/how-its-made-desktop@2x.jpg);
-       }
-     }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .section-subscribe {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+        url(../images/how-its-made/how-its-made-desktop@2x.jpg);
+    }
+  }
 
   .him-video svg {
     left: 300px;
@@ -316,7 +308,6 @@
     height: 400px;
     padding-top: 20px;
     width: 516px;
-   
   }
   .him-p {
     width: 425px;
